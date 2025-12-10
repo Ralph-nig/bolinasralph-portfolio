@@ -71,3 +71,22 @@ document.querySelector('.about__btn .btn').addEventListener('click', function() 
   link.download = 'Ralph-Bolinas-CV.pdf';
   link.click();
 });
+
+// portfolio container
+ScrollReveal().reveal(".portfolio__card", {
+  duration: 1000,
+  interval: 500,
+});
+
+// education container
+ScrollReveal().reveal(".education__card", {
+  ...scrollRevealOption,
+  interval: 300,
+});
+
+document.querySelector('.about__btn .btn').addEventListener('click', function() {
+  const link = document.createElement('a');
+  link.href = 'assets/ralph-bolinas-cv.pdf';
+  link.download = 'Ralph-Bolinas-CV.pdf';
+  link.click();
+});
