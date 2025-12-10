@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my web development projects, s
 
 ## 🌐 Live Demo
 
-[View Live Portfolio](https://ralph-nig.github.io/your-repo-name/) *(Update with your actual GitHub Pages URL)*
+[View Live Portfolio](https://ralph-nig.github.io/bolinasralph-portfolio//) *(Update with your actual GitHub Pages URL)*
 
 ## 📋 Project Overview
 

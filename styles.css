@@ -237,13 +237,13 @@ nav {
   margin-bottom: 2rem;
 }
 
-.service__grid {
+.skills__grid {
   margin-top: 2rem;
   display: grid;
   gap: 1rem;
 }
 
-.service__card {
+.skills__card {
   padding: 2rem 1rem;
   text-align: center;
   background-image: var(--gradient-2);
@@ -251,44 +251,44 @@ nav {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.service__card span {
+.skills__card span {
   display: inline-block;
   margin-bottom: 1rem;
   font-size: 2rem;
 }
 
-.service__card h4 {
+.skills__card h4 {
   margin-bottom: 1rem;
   font-size: 1.2rem;
   font-weight: 700;
 }
 
-.service__card p {
+.skills__card p {
   color: var(--extra-light);
   line-height: 2rem;
 }
 
-.portfolio__grid {
+.projects__grid {
   margin-top: 2rem;
   display: grid;
   gap: 1rem;
 }
 
-.portfolio__card {
+.projects__card {
   overflow: hidden;
   border-radius: 1rem;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.portfolio__card img {
+.projects__card img {
   transition: 0.5s;
 }
 
-.portfolio__card:hover img {
+.projects__card:hover img {
   transform: scale(1.1);
 }
 
-.portfolio__banner {
+.projects__banner {
   margin-top: 2rem;
   padding: 2rem;
   display: grid;
@@ -299,18 +299,18 @@ nav {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.portfolio__banner__card span {
+.projects__banner__card span {
   display: inline-block;
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
 }
 
-.portfolio__banner__card h4 {
+.projects__banner__card h4 {
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-.portfolio__banner__card p {
+.projects__banner__card p {
   font-weight: 500;
 }
 
@@ -354,15 +354,15 @@ nav {
 }
 
 @media (width > 576px) {
-  .service__grid {
+  .skills__grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .portfolio__grid {
+  .projects__grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .portfolio__banner {
+  .projects__banner {
     grid-template-columns: repeat(2, 1fr);
     text-align: left;
   }
@@ -447,25 +447,25 @@ nav {
     text-align: left;
   }
 
-  .service__grid {
+  .skills__grid {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .portfolio__container :is(.section__header, .section__description) {
+  .projects__container :is(.section__header, .section__description) {
     text-align: left;
     margin-inline-start: unset;
   }
 
-  .portfolio__grid {
+  .projects__grid {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .portfolio__banner {
+  .projects__banner {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-.portfolio__banner__card p {
+.projects__banner__card p {
   font-weight: 500;
 }
 

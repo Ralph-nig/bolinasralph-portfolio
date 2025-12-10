@@ -53,14 +53,14 @@ ScrollReveal().reveal(".about__content .about__btn", {
   delay: 1000,
 });
 
-// service container
-ScrollReveal().reveal(".service__card", {
+// skills container
+ScrollReveal().reveal(".skills__card", {
   ...scrollRevealOption,
   interval: 500,
 });
 
-// portfolio container
-ScrollReveal().reveal(".portfolio__card", {
+// projects container
+ScrollReveal().reveal(".projects__card", {
   duration: 1000,
   interval: 500,
 });
@@ -72,8 +72,8 @@ document.querySelector('.about__btn .btn').addEventListener('click', function() 
   link.click();
 });
 
-// portfolio container
-ScrollReveal().reveal(".portfolio__card", {
+// projects container
+ScrollReveal().reveal(".projects__card", {
   duration: 1000,
   interval: 500,
 });
