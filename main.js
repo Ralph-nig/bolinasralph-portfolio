@@ -53,12 +53,6 @@ ScrollReveal().reveal(".about__content .about__btn", {
   delay: 1000,
 });
 
-// skills container
-ScrollReveal().reveal(".skills__card", {
-  ...scrollRevealOption,
-  interval: 500,
-});
-
 // projects container
 ScrollReveal().reveal(".projects__card", {
   duration: 1000,

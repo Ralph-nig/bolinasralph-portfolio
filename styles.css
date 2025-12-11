@@ -237,37 +237,6 @@ nav {
   margin-bottom: 2rem;
 }
 
-.skills__grid {
-  margin-top: 2rem;
-  display: grid;
-  gap: 1rem;
-}
-
-.skills__card {
-  padding: 2rem 1rem;
-  text-align: center;
-  background-image: var(--gradient-2);
-  border-radius: 1rem;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.skills__card span {
-  display: inline-block;
-  margin-bottom: 1rem;
-  font-size: 2rem;
-}
-
-.skills__card h4 {
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
-.skills__card p {
-  color: var(--extra-light);
-  line-height: 2rem;
-}
-
 .projects__grid {
   margin-top: 2rem;
   display: grid;
